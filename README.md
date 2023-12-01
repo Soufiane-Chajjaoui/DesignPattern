@@ -9,20 +9,4 @@ This repository contains examples and explanations related to the Decorator desi
 - [Contributing](#contributing): Information on how to contribute to this repository.
 - [License](#license): Details on the licensing of the content in this repository.
 
-Feel free to explore the examples and adapt them to your own projects. If you have any suggestions or improvements, please consider contributing.
 
-## Examples
-
-Include a brief description or table of contents for the examples in your repository.
-
-## Usage
-
-Provide instructions on how others can use the examples in their projects. Include any dependencies or setup steps if necessary.
-
-## Contributing
-
-If you'd like to contribute to this repository, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
