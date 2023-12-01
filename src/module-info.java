@@ -1,0 +1,2 @@
+module DesignPattern_Decorator {
+}
