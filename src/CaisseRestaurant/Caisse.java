@@ -24,6 +24,7 @@ public class Caisse {
 		System.out.println(pizza.Prepare());
 
 		pizza = new PouletPizza(pizza);
+		pizza = new PouletPizza(pizza);
 
 		System.out.println(pizza.CalPrix());
 		System.out.println(pizza.Prepare());
