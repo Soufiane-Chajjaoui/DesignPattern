@@ -17,11 +17,10 @@ Design patterns offer several benefits:
 
 Briefly mention any design patterns that are prominently used in your project. For example:
 
-- **[Singleton Pattern](../../tree/singleton-branch):** Used to ensure a class has only one instance.
-- **[Factory Method Pattern](../../tree/factory-branch):** Used for object creation in a subclass.
-- **[Builder Pattern](../../tree/builder-branch):** Facilitates the construction of complex objects step by step. Useful when you need to create an object with many optional components.
+- **[Singleton Pattern](../../tree/Singleton_Pattern):** Used to ensure a class has only one instance.
+- **[Prototype Pattern](../../tree/Prototype_Pattern):** Used for object creation by cloning an existing object.
+- **[Builder Pattern](../../tree/Builder_Pattern):** Facilitates the construction of complex objects step by step. Useful when you need to create an object with many optional components.
 - **[Decorator Pattern](../../tree/Decorator_Pattern):** Allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
-
-
+- **[Observer Pattern](../../tree/Observer_Pattern):** Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 
