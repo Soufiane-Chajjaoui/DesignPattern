@@ -4,9 +4,7 @@ This repository contains examples and explanations related to the Decorator desi
 
 ## Contents
 
-- [Examples](#examples): Practical examples demonstrating the use of the Decorator pattern.
-- [Usage](#usage): Instructions on how to use and integrate the examples into your projects.
-- [Contributing](#contributing): Information on how to contribute to this repository.
-- [License](#license): Details on the licensing of the content in this repository.
+- [Examples](./src/IngredientsPizza/DecoratorPizza.java): Practical examples demonstrating the use of the Decorator pattern.
+- [Usage]: like package IO in java
 
 
