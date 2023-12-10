@@ -22,5 +22,5 @@ Briefly mention any design patterns that are prominently used in your project. F
 - **[Builder Pattern](../../tree/Builder_Pattern):** Facilitates the construction of complex objects step by step. Useful when you need to create an object with many optional components.
 - **[Decorator Pattern](../../tree/Decorator_Pattern):** Allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
 - **[Observer Pattern](../../tree/Observer_Pattern):** Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
-
+- **[Facade Pattern](../../tree/Facade_Pattern):** Simplifies the interaction with a complex subsystem by providing a unified interface. It acts as a higher-level interface that makes the subsystem easier to use for clients.
 
