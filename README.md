@@ -4,7 +4,8 @@ This repository contains examples and explanations related to the Decorator desi
 
 ## Contents
 
-- [Examples](./src/IngredientsPizza/DecoratorPizza.java): Practical examples demonstrating the use of the Decorator pattern.
-- [Usage]: like package IO in java
+- Examples: Practical examples demonstrating the use of the Decorator pattern.
+- [Usage]: like package IO in Java.
 
+![Decorator Pattern UML](uml.jpg)
 
