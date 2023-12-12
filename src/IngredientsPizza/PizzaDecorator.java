@@ -2,9 +2,9 @@ package IngredientsPizza;
 
 import RestaurantPizza.Pizza;
 
-public abstract class DecoratorPizza extends Pizza{
+public abstract class PizzaDecorator extends Pizza{
 	protected Pizza pizza ;
-	public DecoratorPizza(Pizza p) {
+	public PizzaDecorator(Pizza p) {
 		this.pizza = p;
 	}
 

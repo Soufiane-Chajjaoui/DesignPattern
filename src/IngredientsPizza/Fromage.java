@@ -2,11 +2,9 @@ package IngredientsPizza;
 
 import RestaurantPizza.Pizza;
 
-public class FromagePizza extends DecoratorPizza{
+public class Fromage extends PizzaDecorator{
 	
-	
-
-	public FromagePizza(Pizza pizza) {
+	public Fromage(Pizza pizza) {
 		super(pizza);
  	}
 

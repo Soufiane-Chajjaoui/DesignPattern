@@ -2,15 +2,15 @@ package IngredientsPizza;
 
 import RestaurantPizza.Pizza;
 
-public class PouletPizza extends DecoratorPizza{
+public class Champinon extends PizzaDecorator{
 
-	public PouletPizza(Pizza p) {
+	public Champinon(Pizza p) {
 		super(p);
  	}
 	
 	@Override
 	public String Prepare() {
- 		return pizza.Prepare() + " Poulet";
+ 		return pizza.Prepare() + " Champinon";
 	}
 
 	@Override

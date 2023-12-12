@@ -1,33 +1,45 @@
 package CaisseRestaurant;
 
-import IngredientsPizza.FromagePizza;
-import IngredientsPizza.PouletPizza;
-import RestaurantPizza.Pizza;
-import RestaurantPizza.PizzaMargarita;
+import IngredientsPizza.*;
+import RestaurantPizza.*;
 
 public class Caisse {
 	
 	public static void main(String[] args) {
-		Pizza pizza ;
-		pizza = new PizzaMargarita();
 		
-		System.out.println( pizza.CalPrix());
-		System.out.println(pizza.Prepare());
+
+		System.out.println("________Pizza 1________");
 		
-		pizza = new FromagePizza(pizza) ;
-		System.out.println(pizza.CalPrix());
-		System.out.println(pizza.Prepare());
-
-		pizza = new PouletPizza(pizza);
+		Pizza pizza1 ;
+		pizza1 = new PizzaMargarita();
 		
-		System.out.println(pizza.CalPrix());
-		System.out.println(pizza.Prepare());
+		System.out.println(pizza1.CalPrix());
+		System.out.println(pizza1.Prepare());
+		
+		pizza1 = new Fromage(pizza1) ;
+		System.out.println(pizza1.CalPrix());
+		System.out.println(pizza1.Prepare());
 
-		pizza = new PouletPizza(pizza);
-		pizza = new PouletPizza(pizza);
+		pizza1 = new Champinon(pizza1);
+		System.out.println(pizza1.CalPrix());
+		System.out.println(pizza1.Prepare());
+		
 
-		System.out.println(pizza.CalPrix());
-		System.out.println(pizza.Prepare());
+		System.out.println("________Pizza 2________");
+
+		Pizza pizza2 ;
+		pizza2 = new PizzaMexican();
+		
+		System.out.println(pizza2.CalPrix());
+		System.out.println(pizza2.Prepare());
+
+		pizza2 = new Pepperoni(pizza2);
+		System.out.println(pizza2.CalPrix());
+		System.out.println(pizza2.Prepare());
+		
+		pizza2 = new Fromage(pizza2) ;
+		System.out.println(pizza2.CalPrix());
+		System.out.println(pizza2.Prepare());
 
 
 	}
